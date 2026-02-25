@@ -1,0 +1,61 @@
+
+> tech-manager@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Error: Can't resolve 'tailwindcss-animate' in 'D:\Junobo-IT Task\src\app'
+    [at finishWithoutResolve (D:\Junobo-IT Task\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at D:\Junobo-IT Task\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at D:\Junobo-IT Task\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (D:\Junobo-IT Task\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at D:\Junobo-IT Task\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (D:\Junobo-IT Task\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at D:\Junobo-IT Task\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at D:\Junobo-IT Task\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (D:\Junobo-IT Task\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at D:\Junobo-IT Task\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss-animate' in 'D:\\Junobo-IT Task\\src\\app'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: D:\\Junobo-IT Task\\package.json (relative path: ./src/app)\n' +
+    '    resolve as module\n' +
+    "      D:\\Junobo-IT Task\\src\\app\\node_modules doesn't exist or is not a directory\n" +
+    "      D:\\Junobo-IT Task\\src\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in D:\\Junobo-IT Task\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: D:\\Junobo-IT Task\\package.json (relative path: ./node_modules/tailwindcss-animate)\n' +
+    '            no extension\n' +
+    "              D:\\Junobo-IT Task\\node_modules\\tailwindcss-animate doesn't exist\n" +
+    '            .js\n' +
+    "              D:\\Junobo-IT Task\\node_modules\\tailwindcss-animate.js doesn't exist\n" +
+    '            .json\n' +
+    "              D:\\Junobo-IT Task\\node_modules\\tailwindcss-animate.json doesn't exist\n" +
+    '            .node\n' +
+    "              D:\\Junobo-IT Task\\node_modules\\tailwindcss-animate.node doesn't exist\n" +
+    '            .ts\n' +
+    "              D:\\Junobo-IT Task\\node_modules\\tailwindcss-animate.ts doesn't exist\n" +
+    "        D:\\Junobo-IT Task\\node_modules\\tailwindcss-animate doesn't exist\n" +
+    "      D:\\node_modules doesn't exist or is not a directory"
+}
+
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\Junobo-IT Task\src\app\globals.css:1:1: Can't resolve 'tailwindcss-animate' in 'D:\Junobo-IT Task\src\app'
+    at Input.error (node_modules/postcss/lib/input.js:135:16) [D:\Junobo-IT Task\.next\build\chunks\node_modules_fe693df6._.js:4651:22]
+    at Root.error (node_modules/postcss/lib/node.js:146:32) [D:\Junobo-IT Task\.next\build\chunks\node_modules_fe693df6._.js:928:38]
+    [at Object.Once (D:\Junobo-IT Task\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    at async LazyResult.runAsync (node_modules/postcss/lib/lazy-result.js:293:11) [D:\Junobo-IT Task\.next\build\chunks\node_modules_fe693df6._.js:6206:21]
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [D:\Junobo-IT Task\.next\build\chunks\[root-of-the-server]__51225daf._.js:146:36]
+    at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23) [D:\Junobo-IT Task\.next\build\chunks\[root-of-the-server]__974941ed._.js:443:31]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [D:\Junobo-IT Task\.next\build\chunks\[root-of-the-server]__51225daf._.js:146:36])
+    at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23) [D:\Junobo-IT Task\.next\build\chunks\[root-of-the-server]__974941ed._.js:443:31])
