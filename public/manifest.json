@@ -1,7 +1,7 @@
 {
-    "name": "Junobo IT Task Manager",
+    "name": "Tech Manager",
     "short_name": "IT Tasks",
-    "description": "Task management system for Junobo System Engineers",
+    "description": "Task management system for System Engineers",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

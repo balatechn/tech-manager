@@ -82,7 +82,7 @@ export const useStore = create<AppState>()(
             })),
         }),
         {
-            name: 'junobo-it-storage',
+            name: 'tech-manager-storage',
         }
     )
 );

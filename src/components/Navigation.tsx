@@ -64,7 +64,7 @@ export function TopNav() {
             <div className="container flex h-14 items-center px-4">
                 <div className="mr-4 hidden md:flex">
                     <a className="mr-6 flex items-center space-x-2" href="/">
-                        <span className="hidden font-bold sm:inline-block">Junobo IT</span>
+                        <span className="hidden font-bold sm:inline-block">Tech Manager</span>
                     </a>
                     <nav className="flex items-center space-x-6 text-sm font-medium">
                         <a className="transition-colors hover:text-foreground/80 text-foreground" href="/">Dashboard</a>

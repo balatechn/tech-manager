@@ -36,7 +36,7 @@ export default function LoginPage() {
                             <HardDrive className="h-8 w-8 text-primary" />
                         </div>
                     </div>
-                    <CardTitle className="text-2xl font-bold">Junobo IT Tasks</CardTitle>
+                    <CardTitle className="text-2xl font-bold">Tech Manager</CardTitle>
                     <CardDescription>
                         Login to manage your assignments
                     </CardDescription>

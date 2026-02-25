@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Junobo IT Tracker",
-  description: "IT Task Management App for Junobo Hotels",
+  title: "Tech Manager",
+  description: "IT Task Management App for System Engineers",
   manifest: "/manifest.json",
 };
 
